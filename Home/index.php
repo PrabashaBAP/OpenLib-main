@@ -53,8 +53,7 @@ $total_genres = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="logo">Open<span>Lib</span></div>
-
+          <div class="logo">Open<span>Lib</span></div> 
         <nav class="navbar" id="navMenu">
             <?php if (isset($_SESSION['user_id'])): ?>
                 <a href="../User_details/user_detail.php">My Profile</a>
@@ -109,6 +108,7 @@ $total_genres = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
                 </div>
             </div>
         </div>
+        <div class="lamp-glow" id="lampGlow"></div>   <!--lamp ekata animation ekak set kara 😎 hehe-->
     </section>
 
     <!-- Features Section -->
@@ -250,10 +250,10 @@ $total_genres = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
                     <a href="/" class="footer-logo">OpenLib</a>
                     <p class="footer-description">Your gateway to knowledge. Explore thousands of books and join our vibrant reading community.</p>
                     <div class="social-links">
-                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://x.com/"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://lk.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
                 <div class="footer-column">

@@ -175,3 +175,34 @@ if (searchContainer) {
     this.style.boxShadow = 'none';
   });
 }
+
+// changes -- animate jpg lamp glow 😎
+
+const lampGlow = document.getElementById('lampGlow');
+
+if (searchInput && lampGlow) {
+  searchInput.addEventListener('input', function() {  // “When this thing happens… run this code-- addEventListener wenne meken.” 
+    if (this.value.trim().length > 0) {
+      lampGlow.classList.add('active');
+      lampGlow.classList.add('pulse');
+    } else {
+      lampGlow.classList.remove('pulse');
+      setTimeout(() => {
+        lampGlow.classList.remove('active');
+      }, 300);
+    }
+  });
+
+  searchInput.addEventListener('focus', function() {
+    if (this.value.trim().length > 0) {
+      lampGlow.classList.add('active');
+    }
+  });
+
+  searchInput.addEventListener('blur', function() {
+    if (this.value.trim().length === 0) {
+      lampGlow.classList.remove('pulse');
+      lampGlow.classList.remove('active');
+    }
+  });
+}
