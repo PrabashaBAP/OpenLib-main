@@ -260,12 +260,12 @@ $yearly_activity = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
         <h3>Account</h3>
         <ul>
           <?php if (isset($_SESSION['user_id'])): ?>
-            <li><a href="../Profile/user_profile.php">My Profile</a></li>
-            <li><a href="../Borrow/borrow_books.php">Borrow Books</a></li>
+            <li><a href="../User_details/user_detail.php">My Profile</a></li>
+            <li><a href="../Borrow_books/borrow_books.php">Borrow Books</a></li>
             <li><a href="../Login/user_login.php">Logout</a></li>
           <?php else: ?>
             <li><a href="../Login/user_login.php">Log In</a></li>
-            <li><a href="../Register/user_register.php">Sign Up</a></li>
+            <li><a href="../Register/register.php">Sign Up</a></li>
           <?php endif; ?>
         </ul>
       </div>
