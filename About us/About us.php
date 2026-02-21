@@ -250,9 +250,9 @@ $yearly_activity = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
       <div class="footer-column">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="../Home/home.php">Home</a></li>
-          <li><a href="../Borrow/borrow_books.php">Browse Books</a></li>
-          <li><a href="about us.php">About Us</a></li>
+          <li><a href="../Home/index.php">Home</a></li>
+          <li><a href="../Borrow_books/borrow_books.php">Browse Books</a></li>
+          <li><a href="../About us/About us.php">About Us</a></li>
           <li><a href="../contact/contact.php">Contact</a></li>
         </ul>
       </div>
