@@ -225,7 +225,7 @@ $badgeMap = ['Programming'=>'badge-prog','Fiction'=>'badge-fic','Science'=>'badg
           <li><a href="../Home/index.php">Home</a></li>
           <li><a href="catalog.php">Book Catalog</a></li>
           <li><a href="../contact/contact.php">Contact</a></li>
-          <li><a href="../Abou_us/about_us.php">About Us</a></li>
+          <li><a href="../About us/About us.php">About Us</a></li>
         </ul>
       </div>
       <div class="footer-column">
