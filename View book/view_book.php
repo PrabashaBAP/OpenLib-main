@@ -106,7 +106,7 @@ $conn->close();
                 <?php endforeach; ?>
             </select>
             <button type="submit" class="btn btn-primary">Search</button>
-            <a href="browse_books.php" class="btn btn-secondary">Reset</a>
+            <a href="../Borrow_books/borrow_books.php" class="btn btn-secondary">Reset</a>
         </form>
 
         <!-- RESULTS COUNT -->
