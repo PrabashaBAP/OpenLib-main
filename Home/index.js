@@ -179,15 +179,20 @@ if (searchContainer) {
 // changes -- animate jpg lamp glow 😎
 
 const lampGlow = document.getElementById('lampGlow');
+let lampTimeout; // store timeout ID
 
 if (searchInput && lampGlow) {
-  searchInput.addEventListener('input', function() {  // “When this thing happens… run this code-- addEventListener wenne meken.” 
+  searchInput.addEventListener('input', function() {
     if (this.value.trim().length > 0) {
-      lampGlow.classList.add('active');
-      lampGlow.classList.add('pulse');
+      lampGlow.classList.add('active', 'pulse');
+
+      // cancel any pending removal
+      if (lampTimeout) clearTimeout(lampTimeout);
     } else {
       lampGlow.classList.remove('pulse');
-      setTimeout(() => {
+
+      // remove active after 300ms
+      lampTimeout = setTimeout(() => {
         lampGlow.classList.remove('active');
       }, 300);
     }
