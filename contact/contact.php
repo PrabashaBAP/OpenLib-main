@@ -166,11 +166,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="footer-column">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="../dashboard/dashboard.html">Dashboard</a></li>    
-          <li><a href="../Home/Main.html">Home</a></li>
+          <li><a href="../Dashboard/dashboard.php">Dashboard</a></li>    
+          <li><a href="../Home/index.php">Home</a></li>
           <li><a href="../Borrow_books/borrow_books.php">Borrow Books</a></li>
           <li><a href="../contact/contact.php">Contact</a></li>
-          <li><a href="../About us/about_us.php">About Us</a></li>
+          <li><a href="../About us/About us.php">About Us</a></li>
         </ul>
       </div>
       <div class="footer-column">
