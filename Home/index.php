@@ -234,7 +234,7 @@ $total_genres = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
                         <i class='bx bx-user-plus'></i> Sign Up Now
                     </a>
                 <?php else: ?>
-                    <a href="../View book/view_book.php class="btn btn-cta">
+                    <a href="../View book/view_book.php" class="btn btn-cta">  <!--Methana comma eka halala eka haduwa  -->
                         <i class='bx bx-book-add'></i> Browse Books
                     </a>
                 <?php endif; ?>
