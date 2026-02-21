@@ -211,3 +211,13 @@ if (searchInput && lampGlow) {
     }
   });
 }
+
+
+// for automatically reloads the window to escape the bugg that fucking not accesible the seacrch bar  :)
+
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted) {
+    window.location.reload();
+  }
+});
+
