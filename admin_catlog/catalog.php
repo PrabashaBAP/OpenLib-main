@@ -231,8 +231,8 @@ $badgeMap = ['Programming'=>'badge-prog','Fiction'=>'badge-fic','Science'=>'badg
       <div class="footer-column">
         <h3>Account</h3>
         <ul>
-          <li><a href="../Login page/user_login.php">Log In</a></li>
-          <li><a href="../Register/user_register.php">Sign Up</a></li>
+          <li><a href="../Login/user_login.php">Log In</a></li>
+          <li><a href="../Register/register.php">Sign Up</a></li>
         </ul>
       </div>
       <div class="footer-column">
