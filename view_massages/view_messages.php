@@ -99,10 +99,10 @@ $total_count = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
 <header class="header">
   <div class="logo">Open<span>Lib</span></div>
   <nav class="navbar" id="navMenu">
-    <a href="../dashboard/dashboard.html">Dashboard</a>
+    <a href="../Dashboard/dashboard.php">Dashboard</a>
     <a href="view_messages.php" class="active">Contact Messages</a>
-    <a href="../Members/manage_members.php">Manage Users</a>
-    <a href="../Books/add_book.php">Manage Books</a>
+    <a href="../Manage_members/manage_members.php">Manage Users</a>
+    <a href="../Manage_books/add_book.php">Manage Books</a>
     <a href="../Login/user_login.php" class="btn-nav">Logout</a>
   </nav>
   <div class="menu-toggle" onclick="toggleMenu()">☰</div>
