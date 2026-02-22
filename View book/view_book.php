@@ -80,8 +80,8 @@ $conn->close();
     <header class="header">
         <div class="logo">Open<span>Lib</span></div>
         <nav class="navbar">
-            <a href="index.php" class="active">Home</a>
-            <a href="../About/about_us.php">About Us</a>
+            <a href="../Home/index.php" class="active">Home</a>
+            <a href="../About us/About us.php">About Us</a>
             <a href="../contact/contact.php">Contact</a>
             <a href="../Login/user_login.php" class="btn btn-primary">Login</a>
             <a href="../Register/register.php" class="btn btn-primary">Sign Up</a>
@@ -176,9 +176,9 @@ $conn->close();
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
-                <a href="../dashboard/dashboard.php">Dashboard</a>
-                <a href="../Home/Main.html">Home</a>
-                <a href="browse_books.php">Catalog</a>
+                <a href="../Dashboard/dashboard.php">Dashboard</a>
+                <a href="../Home/index.php">Home</a>
+                <a href="../Borrow_books/borrow_books.php">Catalog</a>
             </div>
             <div class="footer-col">
                 <h4>Account</h4>
