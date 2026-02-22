@@ -133,11 +133,11 @@ $toasts = [
 <header class="header">
   <div class="logo">Open<span>Lib</span></div>
   <nav class="navbar">
-    <a href="../dashboard/dashboard.html">Dashboard</a>
-    <a href="../Home/Main.html">Home</a>
+    <a href="../Dashboard/dashboard.php">Dashboard</a>
+    <a href="../Home/index.php">Home</a>
     <a href="#">Catalog</a>
-    <a href="../contact us/contact.html">Contact</a>
-    <a href="../Abou_us/about_us.html">About Us</a>
+    <a href="../contact/contact.php">Contact</a>
+    <a href="../About us/About us.php">About Us</a>
     <a href="../Login/user_login.php" class="btn-logout">Logout</a>
   </nav>
 </header>
@@ -305,8 +305,8 @@ $toasts = [
     </div>
     <div class="footer-col">
       <h4>Account</h4>
-      <a href="../Login page/user_login.html">Log In</a>
-      <a href="../Register/user_register.html">Sign Up</a>
+      <a href="../Login/user_login.php">Log In</a>
+      <a href="../Register/register.php">Sign Up</a>
     </div>
     <div class="footer-col">
       <h4>Hours</h4>
