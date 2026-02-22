@@ -145,7 +145,7 @@ $recentActivities = $recentStmt->fetchAll(PDO::FETCH_ASSOC);
       <div class="footer-column">
         <h3>Account</h3>
         <ul>
-          <li><a href="../Login page/user_login.html">Log Out</a></li>
+          <li><a href="../Login/user_login.php">Log Out</a></li>
         </ul>
       </div>
       <div class="footer-column">
