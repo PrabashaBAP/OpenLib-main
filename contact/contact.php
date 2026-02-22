@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="container">
     <div class="footer-grid">
       <div class="footer-column">
-        <a href="/" class="footer-logo">OpenLib</a>
+        <a href="../Home/index.php" class="footer-logo">OpenLib</a>
         <p class="footer-description">Your gateway to knowledge. Explore thousands of books and join our vibrant reading community.</p>
       </div>
       <div class="footer-column">
