@@ -230,7 +230,7 @@ $total_genres = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
                 <h2>Ready to Start Your Reading Journey?</h2>
                 <p>Join <?php echo number_format($active_members); ?>+ book lovers and get access to our extensive collection today!</p>
                 <?php if (!isset($_SESSION['user_id'])): ?>
-                    <a href="../Register/user_register.php" class="btn btn-cta">
+                    <a href="../Register/register.php" class="btn btn-cta">
                         <i class='bx bx-user-plus'></i> Sign Up Now
                     </a>
                 <?php else: ?>
