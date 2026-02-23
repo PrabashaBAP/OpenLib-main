@@ -12,11 +12,11 @@
   <div class="logo">Open<span>Lib</span></div>
 
   <nav class="navbar" id="navMenu">
-    <a href="../dashboard/dashboard.html">Dashboard</a>
-    <a href="../Home/Main.html">Home</a>
+    <a href="../Dashboard/dashboard.php">Dashboard</a>
+    <a href="../Home/index.php">Home</a>
     <a href="#">Catalog</a>
-    <a href="../contact us/contact.html">Contact</a>
-    <a href="../Abou_us/about_us.html">About Us</a>
+    <a href="../contact/contact.php">Contact</a>
+    <a href="../About us/About us.php">About Us</a>
     
 
     <a href="../Login/user_login.php" class="btn login">Login</a>
@@ -101,8 +101,8 @@
                 <div class="footer-column">
                     <h3>Account</h3>
                     <ul>
-                        <li><a href="../Login page/user_login.html">Log In</a></li>
-                        <li><a href="../Register/user_register.html">Sign Up</a></li>
+                        <li><a href="../Login/user_login.php">Log In</a></li>
+                        <li><a href="../Register/register.php">Sign Up</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
