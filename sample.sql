@@ -160,3 +160,5 @@ INSERT INTO `books` (`id`, `title`, `author`, `isbn`, `genre`, `publication_year
 (100, 'The Selfish Gene', 'Richard Dawkins', '978-0-199-29114-4', 'Science', 1976, 360, 'Oxford University Press', 5, 4, 'How natural selection shapes genetic evolution.', NULL, '2026-02-20 02:11:15', 'Available'),
 (101, 'The Origin of Species', 'Charles Darwin', '978-0-451-52906-0', 'Science', 1859, 502, 'John Murray', 4, 3, 'The foundational work of evolutionary biology.', NULL, '2026-02-20 02:11:15', 'Available'),
 (102, 'Astrophysics for People in a Hurry', 'Neil deGrasse Tyson', '978-0-393-60939-4', 'Science', 2017, 224, 'W.W. Norton', 8, 7, 'Essential cosmic knowledge delivered with wit and clarity.', NULL, '2026-02-20 02:11:15', 'Available');
+
+👀
