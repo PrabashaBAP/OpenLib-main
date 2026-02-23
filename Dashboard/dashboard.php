@@ -92,10 +92,10 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="../dashboard/dashboard.html">Dashboard</a></li>    
-                        <li><a href="../Home/Main.html">Home</a></li>
-                        <li><a href="#">Book Catalog</a></li>
-                        <li><a href="../contact us/contact.html">Contact</a></li>
-                        <li><a href="../Abou_us/about_us.html">About Us</a></li>
+                        <li><a href="../Home/index.php">Home</a></li>
+                        <li><a href="../View book/view_book.php">Book Catalog</a></li>
+                        <li><a href="../contact/contact.php">Contact</a></li>
+                        <li><a href="../About us/About us.php">About Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
