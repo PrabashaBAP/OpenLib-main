@@ -299,9 +299,9 @@ $toasts = [
     </div>
     <div class="footer-col">
       <h4>Quick Links</h4>
-      <a href="../dashboard/dashboard.html">Dashboard</a>
-      <a href="../Home/Main.html">Home</a>
-      <a href="#">Catalog</a>
+      <a href="../dashboard/dashboard.php">Dashboard</a>
+      <a href="../Home/index.php">Home</a>
+      <a href="../admin_catlog/catalog.php">Catalog</a>
     </div>
     <div class="footer-col">
       <h4>Account</h4>
